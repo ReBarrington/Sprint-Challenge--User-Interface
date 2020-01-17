@@ -247,3 +247,17 @@ button {
     line-height: 1.5;
     margin: 5% auto 5% 0;
 }
+
+/* CONTACT PAGE */
+form ul {
+    border: 5px black dotted;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+form input {
+    width: 20%;
+}
