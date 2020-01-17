@@ -213,7 +213,7 @@ footer nav a {
 .about {
     justify-content: space-evenly;
     margin-bottom: 20px;
-    padding-bottom: 2%;
+    padding: 0 3% 3% 3%;
     border-bottom: 1px black dashed;
 }
 
@@ -221,18 +221,29 @@ footer nav a {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
 .learn-more {
-    width: 40%;
+    width: 49%;
     padding: .5%;
     align-content: space-around;
     line-height: 1.5;
+    border-bottom: 1px black dashed;
+    margin-bottom: 50px;
 
 }
 
 .learn-more img {
     width: 100%;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 25%;
+    line-height: 1.5;
+    margin: 5% auto 5% 0;
 }
