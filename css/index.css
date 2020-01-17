@@ -249,15 +249,26 @@ button {
 }
 
 /* CONTACT PAGE */
-form ul {
-    border: 5px black dotted;
+
+.contactpage {
     display: flex;
-    align-items: center;
-    padding: 10%;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-form input {
-    width: 20%;
+.contact-img {
+    border: 5px black solid;
+    padding: 5%;
+    margin-bottom: 10%;
+    background: radial-gradient(dodgerblue, purple);
+}
+
+form ul {
+    border: 2px black dotted;
+    display:flex;
+    padding: 10%;
+}
+
+form li {
+    justify-content: space-evenly;
 }
