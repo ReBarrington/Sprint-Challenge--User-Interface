@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10%;
+  
+}
+
+.mainNav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.banner {
+    margin-bottom: 5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +124,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +202,76 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* LINES */
+/* hr {
+    border: .5px black dashed;
+    margin-top: 5%;
+} */
+
+
+/* ABOUT PAGE CSS */
+
+.about {
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 0 3% 3% 3%;
+    border-bottom: 1px black dashed;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.learn-more {
+    width: 49%;
+    padding: .5%;
+    align-content: space-around;
+    line-height: 1.5;
+    border-bottom: 1px black dashed;
+    margin-bottom: 50px;
+
+}
+
+.learn-more img {
+    width: 100%;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 25%;
+    line-height: 1.5;
+    margin: 5% auto 5% 0;
+}
+
+/* CONTACT PAGE */
+
+.contactpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-img {
+    border: 5px black solid;
+    padding: 5%;
+    margin-bottom: 10%;
+    background: radial-gradient(dodgerblue, purple);
+}
+
+form ul {
+    border: 2px black dotted;
+    display:flex;
+    padding: 10%;
+}
+
+form li {
+    justify-content: space-evenly;
 }
